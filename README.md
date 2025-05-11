@@ -16,6 +16,28 @@ GameHub is a modern, bilingual gaming platform that offers competitive gaming ex
   <img src="screenshots/gamehub-img-arabic.JPG" alt="Arabic Home Page" width="45%">
 </p>
 
+## 🎬 Demo Video
+
+<p align="center">
+  <a href="screenshots/GameHub-video.mp4" target="_blank">
+    <img src="screenshots/gamehub-img.JPG" alt="GameHub Demo Video" width="70%" style="border-radius: 12px; box-shadow: 0 8px 25px rgba(99, 102, 241, 0.3);">
+  </a>
+</p>
+
+<p align="center">
+  <i>Click the image above to watch the GameHub platform in action</i>
+</p>
+
+### What the Demo Shows
+
+- Language switching between English and Arabic with RTL/LTR support
+- Modern glassmorphism UI with gradient animations
+- User registration and profile customization
+- Game browsing and recommendation system
+- Interactive card hover effects and animations
+
+> **Note**: To add your demo video, upload your video to YouTube and replace `your-video-id` with your actual YouTube video ID. For the thumbnail, take a screenshot of your video with your game's UI visible and save it as `video-thumbnail.jpg` in the screenshots folder.
+
 ## ✨ Features
 
 ### 🌐 Bilingual Support
