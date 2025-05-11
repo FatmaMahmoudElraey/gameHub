@@ -109,4 +109,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 📧 Contact
 
-For inquiries or contributions, please contact [your-email@example.com](mailto:your-email@example.com).
+For inquiries or contributions, please contact [fatmaelraey.22@gmail.com](mailto:fatmaelraey.22@gmail.com).
