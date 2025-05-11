@@ -12,8 +12,8 @@
 GameHub is a modern, bilingual gaming platform that offers competitive gaming experiences for users of all skill levels. The platform features a seamless language switch between Arabic and English with full RTL support, modern glassmorphism UI, and an intuitive user experience.
 
 <p align="center">
-  <img src="screenshots/home-en.png" alt="English Home Page" width="45%">
-  <img src="screenshots/home-ar.png" alt="Arabic Home Page" width="45%">
+  <img src="screenshots/gamehub-img.JPG" alt="English Home Page" width="45%">
+  <img src="screenshots/gamehub-img-arabic.JPG" alt="Arabic Home Page" width="45%">
 </p>
 
 ## ✨ Features
@@ -109,4 +109,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 📧 Contact
 
-For inquiries or contributions, please contact [your-email@example.com](mailto:your-email@example.com).
+For inquiries or contributions, please contact [fatmaelraey.22@gmail.com](mailto:fatmaelraey.22@gmail.com).
