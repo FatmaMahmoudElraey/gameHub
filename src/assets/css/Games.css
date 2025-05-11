@@ -1,0 +1,312 @@
+/* Games Page Styling */
+.games-container {
+  background-color: var(--dark-color);
+  color: white;
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.decoration-circle {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(80px);
+  z-index: 0;
+}
+
+.decoration-primary {
+  top: -100px;
+  right: -100px;
+  width: 300px;
+  height: 300px;
+  background-color: rgba(99, 102, 241, 0.1);
+}
+
+.decoration-secondary {
+  bottom: -100px;
+  left: -100px;
+  width: 300px;
+  height: 300px;
+  background-color: rgba(16, 185, 129, 0.1);
+}
+
+/* Game Header */
+.game-header {
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+  padding: 2rem;
+  border-radius: 1rem 1rem 0 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.game-header-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(circle at center, rgba(255,255,255,0.1) 0%, rgba(0,0,0,0.2) 100%);
+  pointer-events: none;
+}
+
+.game-title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.game-meta {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.game-score {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.game-time {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+/* Game Content */
+.game-content {
+  background-color: rgba(31, 41, 55, 0.7);
+  padding: 2rem;
+  border-radius: 0 0 1rem 1rem;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  position: relative;
+  z-index: 1;
+}
+
+.game-card {
+  background-color: rgba(31, 41, 55, 0.7);
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  margin-bottom: 2rem;
+}
+
+.game-progress {
+  height: 6px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 3px;
+  overflow: hidden;
+  margin-bottom: 1.5rem;
+}
+
+.game-progress-bar {
+  height: 100%;
+  background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+}
+
+.game-question {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.game-option {
+  background-color: rgba(17, 24, 39, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 0.75rem;
+  padding: 1rem 1.5rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.game-option:hover {
+  transform: translateY(-2px);
+  border-color: rgba(99, 102, 241, 0.5);
+  background-color: rgba(17, 24, 39, 0.8);
+}
+
+.game-option.selected {
+  border-color: var(--primary-color);
+  background-color: rgba(99, 102, 241, 0.1);
+}
+
+.game-option.correct {
+  border-color: var(--secondary-color);
+  background-color: rgba(16, 185, 129, 0.2);
+}
+
+.game-option.incorrect {
+  border-color: var(--danger-color);
+  background-color: rgba(239, 68, 68, 0.2);
+}
+
+.game-instructions {
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+.game-instructions h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.game-instructions p {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 1.125rem;
+  margin-bottom: 2rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.game-over {
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+.game-over h2 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+  background: linear-gradient(to right, var(--primary-light), var(--secondary-light));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.game-over .final-score {
+  font-size: 3rem;
+  font-weight: 800;
+  margin: 1rem 0;
+  color: white;
+}
+
+.game-btn {
+  background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.game-btn:hover {
+  box-shadow: 0 0 15px rgba(99, 102, 241, 0.5);
+  transform: translateY(-2px);
+}
+
+.game-btn-secondary {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: white;
+}
+
+.game-btn-secondary:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(99, 102, 241, 0.7);
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgba(99, 102, 241, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(99, 102, 241, 0);
+  }
+}
+
+.pulse {
+  animation: pulse 1.5s infinite;
+}
+
+/* History Table Styles */
+.history-table-container {
+  overflow-x: auto;
+  border-radius: 0.5rem;
+}
+
+.history-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+.history-table th {
+  text-align: left;
+  padding: 1rem;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(17, 24, 39, 0.3);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.history-table td {
+  padding: 1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.history-table tr:hover td {
+  background-color: rgba(99, 102, 241, 0.05);
+}
+
+.game-history-name {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.game-icon {
+  font-size: 1.5rem;
+  display: inline-block;
+}
+
+.game-score-cell {
+  font-weight: 700;
+  color: white;
+}
+
+.game-result {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  border-radius: 1rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.game-result.win {
+  background-color: rgba(16, 185, 129, 0.2);
+  color: var(--secondary-light);
+  border: 1px solid rgba(16, 185, 129, 0.4);
+}
+
+.game-result.loss {
+  background-color: rgba(239, 68, 68, 0.2);
+  color: var(--danger-light);
+  border: 1px solid rgba(239, 68, 68, 0.4);
+}
+
+.game-btn-small {
+  display: inline-block;
+  background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: 600;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  transition: all 0.2s ease;
+  border: 1px solid rgba(99, 102, 241, 0.3);
+}
+
+.game-btn-small:hover {
+  background: linear-gradient(to right, var(--primary-light), var(--secondary-light));
+  -webkit-background-clip: text;
+  background-clip: text;
+  box-shadow: 0 0 10px rgba(99, 102, 241, 0.3);
+  border-color: rgba(99, 102, 241, 0.6);
+}

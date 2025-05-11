@@ -1,0 +1,85 @@
+{
+  "navbar": {
+    "home": "Home",
+    "myGames": "My Games",
+    "createGame": "Create Game",
+    "about": "About",
+    "contact": "Contact",
+    "profile": "Profile",
+    "logout": "Logout",
+    "login": "Login",
+    "register": "Register"
+  },
+  "general": {
+    "appName": "GameHub",
+    "changeLanguage": "العربية",
+    "startPlaying": "Start Playing",
+    "learnMore": "Learn More"
+  },
+  "home": {
+    "welcomeTitle": "Welcome to GameHub",
+    "welcomeSubtitle": "Play, Create, Connect",
+    "featuredGames": "Featured Games",
+    "popularGames": "Popular Games",
+    "recentGames": "Recent Games",
+    "viewAll": "View All"
+  },
+  "about": {
+    "title": "About GameHub",
+    "subtitle": "We're on a mission to create the most engaging gaming platform in the world.",
+    "ourStory": "Our Story",
+    "ourValues": "Our Values",
+    "meetTeam": "Meet Our Team",
+    "joinCommunity": "Ready to Join Our Gaming Community?",
+    "createAccount": "Create an account today and start playing with gamers from around the world.",
+    "getStarted": "Get Started"
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "Have questions or feedback? We'd love to hear from you!",
+    "location": "Our Location",
+    "phone": "Phone Number",
+    "email": "Email Address",
+    "hours": "Working Hours",
+    "sendMessage": "Send Message",
+    "yourName": "Your Name",
+    "yourEmail": "Your Email",
+    "subject": "Subject",
+    "message": "Message",
+    "sending": "Sending Message...",
+    "send": "Send Message",
+    "faq": "Frequently Asked Questions"
+  },
+  "createGame": {
+    "title": "Create New Game",
+    "gameDetails": "Game Details",
+    "gameName": "Game Name",
+    "category": "Category",
+    "difficulty": "Difficulty",
+    "timeLimit": "Time Limit (seconds)",
+    "addQuestions": "Add Questions",
+    "question": "Question",
+    "options": "Options (select the correct answer)",
+    "points": "Points",
+    "addQuestion": "Add Question",
+    "questionsAdded": "Questions Added",
+    "noQuestions": "No questions added yet",
+    "correctAnswer": "Correct answer",
+    "createGame": "Create Game",
+    "requiredFields": "Please fill all question fields",
+    "atLeastOne": "Please add at least one question"
+  },
+  "game": {
+    "loading": "Loading game...",
+    "score": "Score",
+    "time": "Time",
+    "ready": "Ready to play?",
+    "startGame": "Start Game",
+    "question": "Question",
+    "of": "of",
+    "gameOver": "Game Over!",
+    "finalScore": "Your final score:",
+    "playAgain": "Play Again",
+    "exitGame": "Exit Game"
+  }
+}

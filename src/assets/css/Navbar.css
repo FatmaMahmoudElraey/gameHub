@@ -1,0 +1,109 @@
+/* Custom Navbar styling */
+.navbar-custom {
+  background-color: rgba(17, 24, 39, 0.95);
+  transition: all 0.3s ease;
+}
+
+.navbar-scrolled {
+  background-color: rgba(17, 24, 39, 0.98);
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-brand-custom {
+  text-decoration: none;
+}
+
+.navbar-logo-container {
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+  box-shadow: 0 0 15px rgba(99, 102, 241, 0.5);
+}
+
+.navbar-brand-text {
+  font-size: 1.25rem;
+  font-weight: 700;
+  background: linear-gradient(to right, var(--primary-light), var(--secondary-light));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.navbar-custom .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 0.7);
+  transition: color 0.3s ease;
+  position: relative;
+  padding: 0.5rem 1rem;
+  margin: 0 0.25rem;
+}
+
+.navbar-custom .navbar-nav .nav-link:hover,
+.navbar-custom .navbar-nav .nav-link.active {
+  color: #fff;
+}
+
+.navbar-custom .navbar-nav .nav-link.active::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 5px;
+  right: 5px;
+  height: 2px;
+  background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+  border-radius: 50px;
+}
+
+.auth-buttons {
+  margin-left: 0.5rem;
+}
+
+/* Smaller auth buttons */
+.auth-buttons .btn {
+  font-size: 0.85rem;
+  padding: 0.35rem 0.85rem;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.auth-buttons .btn-gradient {
+  background-size: 200% auto;
+  box-shadow: 0 2px 10px rgba(99, 102, 241, 0.25);
+}
+
+.auth-buttons .btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(99, 102, 241, 0.3);
+}
+
+.btn-outline-primary {
+  border-color: var(--primary-color);
+  color: var(--primary-color);
+  transition: all 0.3s ease;
+}
+
+.btn-outline-primary:hover {
+  background-color: rgba(99, 102, 241, 0.1);
+  color: var(--primary-light);
+}
+
+/* Mobile navbar styles */
+@media (max-width: 767.98px) {
+  .navbar-custom .navbar-collapse {
+    background-color: rgba(17, 24, 39, 0.98);
+    border-radius: 0 0 10px 10px;
+    padding: 1rem;
+    margin-top: 0.5rem;
+  }
+  
+  .navbar-custom .navbar-nav .nav-link.active::after {
+    bottom: -3px;
+  }
+  
+  .auth-buttons {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+  }
+}

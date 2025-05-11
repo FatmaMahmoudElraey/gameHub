@@ -1,0 +1,85 @@
+{
+  "navbar": {
+    "home": "الرئيسية",
+    "myGames": "ألعابي",
+    "createGame": "إنشاء لعبة",
+    "about": "عن المنصة",
+    "contact": "اتصل بنا",
+    "profile": "الملف الشخصي",
+    "logout": "تسجيل الخروج",
+    "login": "تسجيل الدخول",
+    "register": "إنشاء حساب"
+  },
+  "general": {
+    "appName": "جيم هب",
+    "changeLanguage": "English",
+    "startPlaying": "ابدأ اللعب",
+    "learnMore": "اقرأ المزيد"
+  },
+  "home": {
+    "welcomeTitle": "مرحباً بك في جيم هب",
+    "welcomeSubtitle": "العب، أنشئ، تواصل",
+    "featuredGames": "الألعاب المميزة",
+    "popularGames": "الألعاب الشائعة",
+    "recentGames": "الألعاب الحديثة",
+    "viewAll": "عرض الكل"
+  },
+  "about": {
+    "title": "عن جيم هب",
+    "subtitle": "مهمتنا هي إنشاء أكثر منصات الألعاب جاذبية في العالم.",
+    "ourStory": "قصتنا",
+    "ourValues": "قيمنا",
+    "meetTeam": "تعرف على فريقنا",
+    "joinCommunity": "هل أنت مستعد للانضمام إلى مجتمع الألعاب لدينا؟",
+    "createAccount": "أنشئ حساباً اليوم وابدأ اللعب مع لاعبين من جميع أنحاء العالم.",
+    "getStarted": "ابدأ الآن"
+  },
+  "contact": {
+    "title": "تواصل معنا",
+    "subtitle": "هل لديك أسئلة أو ملاحظات؟ نحن نحب أن نسمع منك!",
+    "location": "موقعنا",
+    "phone": "رقم الهاتف",
+    "email": "عنوان البريد الإلكتروني",
+    "hours": "ساعات العمل",
+    "sendMessage": "إرسال رسالة",
+    "yourName": "اسمك",
+    "yourEmail": "بريدك الإلكتروني",
+    "subject": "الموضوع",
+    "message": "الرسالة",
+    "sending": "جاري إرسال الرسالة...",
+    "send": "إرسال رسالة",
+    "faq": "الأسئلة الشائعة"
+  },
+  "createGame": {
+    "title": "إنشاء لعبة جديدة",
+    "gameDetails": "تفاصيل اللعبة",
+    "gameName": "اسم اللعبة",
+    "category": "الفئة",
+    "difficulty": "المستوى",
+    "timeLimit": "الوقت المحدد (ثوان)",
+    "addQuestions": "إضافة أسئلة",
+    "question": "سؤال",
+    "options": "الخيارات (حدد الإجابة الصحيحة)",
+    "points": "النقاط",
+    "addQuestion": "إضافة سؤال",
+    "questionsAdded": "الأسئلة المضافة",
+    "noQuestions": "لم تتم إضافة أي أسئلة بعد",
+    "correctAnswer": "الإجابة الصحيحة",
+    "createGame": "إنشاء اللعبة",
+    "requiredFields": "يرجى ملء جميع حقول السؤال",
+    "atLeastOne": "يرجى إضافة سؤال واحد على الأقل"
+  },
+  "game": {
+    "loading": "جاري تحميل اللعبة...",
+    "score": "النتيجة",
+    "time": "الوقت",
+    "ready": "هل أنت مستعد للعب؟",
+    "startGame": "بدء اللعبة",
+    "question": "سؤال",
+    "of": "من",
+    "gameOver": "انتهت اللعبة!",
+    "finalScore": "نتيجتك النهائية:",
+    "playAgain": "العب مرة أخرى",
+    "exitGame": "الخروج من اللعبة"
+  }
+}
